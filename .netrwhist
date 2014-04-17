@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/craig/Dropbox/PVT'
+let g:netrw_dirhist_2='/home/craig/Dropbox/PVT/AA-Netsec'
+let g:netrw_dirhist_3='/home/craig/Dropbox/PVT/AA-Netsec/Clients-suppliers'
+let g:netrw_dirhist_4='/home/craig/Dropbox/PVT/AA-Netsec'
+let g:netrw_dirhist_5='/home/craig/Dropbox/PVT'
+let g:netrw_dirhist_6='/home/craig/Dropbox'
+let g:netrw_dirhist_7='/home/craig'
+let g:netrw_dirhist_8='/home'
+let g:netrw_dirhist_9='/'
