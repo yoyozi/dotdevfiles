@@ -1,8 +1,9 @@
 execute pathogen#infect()
+call pathogen#helptags()
+
 syntax on
 filetype plugin indent on
 
-call pathogen#helptags()
 
 set cf  " Enable error files & error jumping.
 set clipboard+=unnamed  " Yanks go on clipboard instead.
