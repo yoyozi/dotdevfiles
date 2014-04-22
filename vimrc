@@ -35,15 +35,8 @@ set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
 
-" gvim specific
-set mousehide  " Hide mouse after chars typed
-set mouse=a  " Mouse in all modes
-" The following optional commands are helpful but require explicit creation of
-" directories and files:
-" " Backups & Files
-" set backup                     " Enable creation of backup file.
-" set backupdir=~/.vim/backups " Where backups will go.
-" set directory=~/.vim/tmp     " Where temporary files will go.
-" - See more at:
-"   http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/#sthash.IVxexJx1.dpuf
-"
+let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_meaningful_tab_names=1
+
+map <C-Right> :tabn<cr>
+map <C-Left> :tabp<cr>
